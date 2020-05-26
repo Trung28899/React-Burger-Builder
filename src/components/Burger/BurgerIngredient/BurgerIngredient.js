@@ -1,12 +1,16 @@
 import React, { Component } from "react";
 import classes from "./BurgerIngredient.module.css";
 import PropTypes from "prop-types";
-import BurgerBuilder from "../../../containers/BurgerBuilder/BurgerBuilder";
 
 /*
     THIS COMPONENT CONTAIN THE BURGER ELEMENTS AVAILABLE TO BE
     ADDED. THESE INGREDIENT WILL BE ADDED IN BURGER.JS, WHERE WE 
     CONSTRUCT THE WHOLE BURGER IMAGE. 
+
+    THIS COMPONENT IS USED IN Burger.js
+
+    USE THE FOLLOWING COMPONENTS: 
+    - none 
 */
 
 class BurgerIngredient extends Component {
